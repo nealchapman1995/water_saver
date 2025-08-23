@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { ref, get, update } from "firebase/database";
 import { database } from "./configuration"; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faLeaf } from '@fortawesome/free-solid-svg-icons';
 import { Search, Plus, Leaf, Droplets, Sun, CheckCircle2, AlertCircle } from 'lucide-react';
 
 function PlantSearch({ user }) {
